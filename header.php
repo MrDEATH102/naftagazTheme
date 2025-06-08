@@ -75,13 +75,10 @@
       <!-- Start header section -->
       <header>
          <!-- start header section -->
-          <!-- header details component  -->
-           <div>
+         <!-- header details component  -->
+         <div>
             <?php get_template_part('templates/header/headerdetails', 'component'); ?>
-           </div>
-         <!-- <div>
-            <?php get_template_part('templates/header/logo', 'component'); ?>
-         </div> -->
+         </div>
          <!-- Header Menu component -->
          <div>
             <?php get_template_part('templates/header/menu', 'component'); ?>

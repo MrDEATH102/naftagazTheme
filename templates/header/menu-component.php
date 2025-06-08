@@ -1,9 +1,10 @@
-<div class="menu__header">
-    <?php
+        <ul class="header__lists">
+          <!-- mega-menu -->
+              <?php
         wp_nav_menu(
             array(
                 'theme_location'    => 'header_menu',
             )
         );
     ?>
-</div>
+        </ul>
