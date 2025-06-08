@@ -7,4 +7,8 @@
     <?php wp_head(); ?>
 </head>
 <body>
+    <!-- start header section -->
+     <div>
+        <?php get_template_part('templates/header/logo', 'component'); ?>
+     </div>
     
