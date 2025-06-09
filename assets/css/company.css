@@ -79,7 +79,7 @@ header.hide-header {
 .naftagaz-img {
   width: 100px;
 }
-.hamburger-menu {
+.hamburger-menu-item {
   display: none;
 }
 .header__detail-items {
@@ -237,12 +237,12 @@ header.hide-header {
 .header__contact-icon:hover::after {
   transform: scale(1);
 }
-.header__lists {
+.menu {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.header__lists a {
+.menu a {
   width: 172px;
   height: 40px;
   line-height: 40px;
@@ -250,7 +250,7 @@ header.hide-header {
   border-top: 1px solid var(--border-second-color);
   position: relative;
 }
-.header__lists a::before {
+.menu a::before {
   content: "";
   position: absolute;
   top: 0;
@@ -260,10 +260,10 @@ header.hide-header {
   background-color: var(--snow);
   transition: all 0.4s;
 }
-.header__lists a:hover::before {
+.menu a:hover::before {
   width: 100%;
 }
-.menu {
+.menu-item {
   width: 100%;
   height: 100%;
   display: flex;
@@ -271,7 +271,7 @@ header.hide-header {
   justify-content: space-between;
   position: relative;
 }
-.menu:hover .mega-menus {
+.menu-item:hover .mega-menus {
   opacity: 1;
   visibility: visible;
 }
@@ -1535,7 +1535,7 @@ footer {
   .naftagaz-img {
     width: 70px;
   }
-  .hamburger-menu {
+  .hamburger-menu-item {
     display: block;
   }
   .hamburger-menu__btn {
@@ -1734,7 +1734,7 @@ footer {
   .header__detail-items {
     display: none;
   }
-  .header__lists {
+  .menu {
     display: none;
   }
   /* naftagaz_video */

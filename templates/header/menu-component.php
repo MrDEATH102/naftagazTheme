@@ -1,4 +1,3 @@
-        <ul class="header__lists">
           <!-- mega-menu -->
               <?php
         wp_nav_menu(
@@ -7,4 +6,3 @@
             )
         );
     ?>
-        </ul>

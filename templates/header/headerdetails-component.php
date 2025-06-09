@@ -56,7 +56,7 @@
               <div>
                 <div class="hamburger-menu__btns">
                   <img
-                    src="../img/a7abe50b-f058-4f13-8865-f310e11f471d.png"
+                    src="<?php get_template_directory_uri(). 'assets/images/a7abe50b-f058-4f13-8865-f310e11f471d.png' ?>"
                     alt="naftagaz-icon"
                     class="naftagaz-img"
                   />
