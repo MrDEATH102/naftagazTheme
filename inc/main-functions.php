@@ -15,6 +15,9 @@ function naftagaz_style_script()
     wp_enqueue_script('index', get_template_directory_uri() . '/assets/js/index.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('company', get_template_directory_uri() . '/assets/js/company.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('services_drilling', get_template_directory_uri() . '/assets/js/services_drilling.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('services_service', get_template_directory_uri() . '/assets/js/services_service.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('careers-succes-stories', get_template_directory_uri() . '/assets/js/careers-succes-stories.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('careers-recognition-board', get_template_directory_uri() . '/assets/js/careers-recognition-board.js', array('jquery'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'naftagaz_style_script');
 
